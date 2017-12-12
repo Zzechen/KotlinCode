@@ -36,3 +36,6 @@
 2. [Lambda](src/funcs/Lambdas.kt)
 3. [Inline func](src/funcs/InlineFuncs.kt)
 4. [Coroutines](src/funcs/Coroutines.kt)
+
+#### 其他
+1. [解构声明](src/others/Destructuring.kt)

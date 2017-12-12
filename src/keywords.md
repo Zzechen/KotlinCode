@@ -15,6 +15,7 @@
 * 类修饰符
     * sealed   --- 
     * data     --- 模型类
+        * 自动声明componentsN()方法
     * object   --- 对象声明/对象表达式
     * open     --- 可继承
 
@@ -39,10 +40,16 @@
 
 * `by` -- 委托模式
 
-* `operator` 
+* `operator` -- 
 
 * `vararg` -- 可变参数列表
 
 * `infix` -- 可以通过方法名调用 忽略'.'和'()'
 
 * `tailrec` --
+
+* `inline` -- 内联
+
+* `crossinline` -- 
+
+* `reified` -- 修饰类型参数，可以使'T'在方法内部像正常的class一样使用

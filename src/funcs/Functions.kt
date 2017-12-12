@@ -110,15 +110,15 @@ infix fun Int.shl(x: Int) = shl(x)
  * 方法内部的方法
  * 局部方法可以使用外部方法的变量，如下面的visited
  */
-fun dfs(graph: Graph) {
-    val visited = HashSet<Vertex>()
-    fun dfs(current: Vertex) {
-        if (!visited.add(current)) return
-        for (v in current.neighbors)
-            dfs(v)
-    }
-    dfs(graph.vertices[0])
-}
+//fun dfs(graph: Graph) {
+//    val visited = HashSet<Vertex>()
+//    fun dfs(current: Vertex) {
+//        if (!visited.add(current)) return
+//        for (v in current.neighbors)
+//            dfs(v)
+//    }
+//    dfs(graph.vertices[0])
+//}
 
 /**
  * 成员方法

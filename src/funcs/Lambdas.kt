@@ -110,16 +110,16 @@ fun <T> max(collection: Collection<T>, less: (T, T) -> Boolean): T? {
 
 fun main(args: Array<String>) {
     fun toBeSync() = arrayListOf<Int>(1, 2, 3)
-    val result = lock(lock, ::toBeSync)
+//    val result = lock(lock, ::toBeSync)
     //通过lambda表达式
-    val res = lock(lock, { arrayListOf<Int>(1, 2) })
+//    val res = lock(lock, { arrayListOf<Int>(1, 2) })
 
     /**
      * Kotlin中，如果方法的最后一个参数是个方法类型，可以通过lambda表达式最为参数，可以用括号写在外面
      */
-    lock(lock) {
-        arrayListOf<Int>(1)
-    }
+//    lock(lock) {
+//        arrayListOf<Int>(1)
+//    }
 
     //调用map方法
     val doubled = arrayListOf<Int>().map { value -> value * 2 }
