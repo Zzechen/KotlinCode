@@ -39,3 +39,5 @@
 
 #### 其他
 1. [解构声明](src/others/Destructuring.kt)
+2. [集合](src/others/Collections.kt)
+3. [范围](src/others/Ranges.kt)
