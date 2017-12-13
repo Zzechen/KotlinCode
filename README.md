@@ -41,3 +41,7 @@
 1. [解构声明](src/others/Destructuring.kt)
 2. [集合](src/others/Collections.kt)
 3. [范围](src/others/Ranges.kt)
+4. [类型检查和转换](src/others/TypeChecksAndCast.kt)
+5. [This](src/others/This.kt)
+6. [相等](src/others/Equality.kt)
+7. [操作符重载](src/others/)
