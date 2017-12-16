@@ -1,7 +1,5 @@
 package basicType
 
-import org.omg.PortableInterceptor.INACTIVE
-
 fun main(args: Array<String>) {
 //---------------------------------if-----------------------------------
     /**

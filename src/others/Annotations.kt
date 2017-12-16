@@ -1,4 +1,4 @@
-@file:JvmName("Foo")
+//@file:JvmName("Foo")
 
 package others
 
@@ -88,7 +88,7 @@ class MyClass
  */
 annotation class Suspendable
 
-val f = @Suspendable { Fiber.current() }
+//val f = @Suspendable { Fiber.current() }
 
 
 /**
@@ -128,7 +128,7 @@ class ExampleMulti {
  * 9、delegate:存储委托属性的委托实例的属性
  */
 //receiver使用
-fun @receiver:others.Fancy String.myExtension() {}
+//fun @receiver:others.Fancy String.myExtension() {}
 //如果没有使用上述场景声明，会使用@Target中的类型，如果存在多个合适目标，按顺序：param-->property-->field
 
 /**
@@ -147,10 +147,10 @@ class CC
 class DD
 
 //Java注解中值的获取
-fun foo(javaAnno: JavaAnno) {
-    val i = javaAnno.intValue
-    val s = javaAnno.stringValue
-}
+//fun foo(javaAnno: JavaAnno) {
+//    val i = javaAnno.intValue
+//    val s = javaAnno.stringValue
+//}
 
 @Deprecated("this function is deprecated,use === instead", ReplaceWith("this === other"))
 fun main(args: Array<String>) {

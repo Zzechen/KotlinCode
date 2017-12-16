@@ -27,6 +27,10 @@
     * for     ---
     * while（do-while） --- 
     
+* 泛型
+    * in
+    * out
+
 * `filed` -- backing field
 
 * `this`
@@ -55,3 +59,5 @@
 * `reified` -- 修饰类型参数，可以使'T'在方法内部像正常的class一样使用,并且会使编译器类型检查
 
 * `is` -- 类型判断 `!is`
+
+* `typealias` -- 定义类型别名
