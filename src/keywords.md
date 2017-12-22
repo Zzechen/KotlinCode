@@ -13,9 +13,9 @@
    
    
 * 类修饰符
-    * sealed   --- 
+    * sealed   --- 有限类型
     * data     --- 模型类
-        * 自动声明componentsN()方法
+        * 自动声明componentsN()方法 -- 解构
     * object   --- 对象声明/对象表达式
     * open     --- 可继承
 
@@ -28,8 +28,8 @@
     * while（do-while） --- 
     
 * 泛型
-    * in
-    * out
+    * in --- 相当于Java泛型中的supper
+    * out --- 相当于Java泛型中的extends
 
 * `filed` -- backing field
 
